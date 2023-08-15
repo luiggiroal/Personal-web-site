@@ -1,0 +1,145 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-header {
+  background-color: #e6e6e6;
+  background-image: url(../img/Bluebird-Photo-ITW-blog-1280x640.jpg);
+  background-size: cover;
+  padding: 20.91px 0px;
+}
+
+.text {
+  font-family: 'Lato', sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.text-key {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.text-key-data {
+  font-style: italic;
+}
+
+.text-value {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.list {
+  line-height: 23px;
+  margin: 18px 0px 30px 19px;
+}
+
+.list-data {
+  margin-left: 39px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.item-value {
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 3px;
+}
+
+.title {
+  background-color: #c4c4c4;
+  color: #005677;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
+
+.title-header {
+  font-size: 35px;
+  line-height: 29.64px;
+  /* margin-bottom: 128px; */
+  padding: 14.13px 0 16px 0;
+  text-align: center;
+}
+
+.title-main {
+  font-size: 20px;
+  padding: 6px 0px 7px 12.45px;
+}
+
+.list-nav {
+  /* border: 2px solid red; */
+  background-color: #9c9a9a;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-bottom: 128px;
+  padding: 15px 0px;
+  /* letter-spacing: 7px; */
+  /* text-transform: uppercase; */
+  /* word-spacing: 10px; */
+}
+
+.item-nav {
+  color: #21799c;
+  text-decoration: none;
+}
+
+.about-section {
+  align-items: center;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-area {
+  /* border: 2px solid red; */
+  /* display: inline-block; */
+  text-align: justify;
+  margin: 50px 0px;
+  width: 60%;
+}
+
+.img-about {
+  /* border: 2px solid blue; */
+  margin: 0px;
+  height: 250.37px;
+  width: 250.37px;
+}
+
+.footer-text {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-icon {
+  margin-left: 26px;
+  color: #ffffff;
+}
+
+img {
+  display: block;
+  height: 146.37px;
+  margin: 0px auto;
+  width: 146.37px;
+}
+
+footer {
+  align-items: center;
+  background-color: #005677;
+  color: #ffffff;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 147px;
+  padding: 9px 0 8px 0;
+}
